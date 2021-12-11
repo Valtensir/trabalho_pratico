@@ -14,8 +14,8 @@ def display_sidebar():
             "Informações sobre os profisionais": pcd.info_profissionais,
             "Salários": pcd.salarios,
             "Programadores Python": pcd.programadores_python,
-            "Sistema operacional utilizado": pcd.so_utilizado,
-            "Média de idade das pessoas": pcd.media_idade,
+            "Sistema operacional": pcd.so_utilizado,
+            "Idade": pcd.media_idade,
         }
 
         escolha = st.radio("Selecione a opção desejada", opcoes)
